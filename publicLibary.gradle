@@ -1,9 +1,9 @@
-apply from: 'util.gradle'
+apply from: '../util.gradle'
 
 def siteUrl = 'https://github.com/ovwvwvo/jkit'
 def gitUrl = 'https://github.com/ovwvwvo/jkit.git'
 group = "com.ovwvwvo"
-version = appVersionName
+version = "0.1.7"
 
 bintray {
     user = "ovwvwvo"
